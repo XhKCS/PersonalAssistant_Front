@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+}
+.Header{
+    background: linear-gradient(.25turn,#8bcecb,50%,white);
+}
+.bg-purple-dark {
+    background: #99a9bf;
+}
+.projectLabel{
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+}
+.projectLabelC{
+    margin-top: 15px;
+    margin-left: 50px;
+    display: flex;
+}
+.menuItem{
+    width: fit-content;
+}
+.userMessageContainer{
+    display: flex;
+    margin-left: 155px;
+    margin-top: 5px;
+}
+.usernameContainer{
+    margin-top: 10px;
+    display: flex;
+}
+.userAvaContainer{
+    margin-left: 10px;
+}
+.userName{
+
+}
+.CopyrightContainer{
+    font-size: small;
+    margin-left: 43%;
+    color: white;
+}
+.editButton{
+    margin-right: 30px;
+}
