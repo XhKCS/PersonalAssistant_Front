@@ -178,7 +178,7 @@ export default {
         this.pathList.push("/mainView/financeManagement")
       }
       else if (index === "4") {
-
+        router.push("/mainView/ContactManagement")
       }
 
     },
