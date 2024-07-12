@@ -58,7 +58,7 @@
                 <el-menu-item index="1">
                   <template #title>
                     <el-icon>
-                      <User/>
+                      <DocumentChecked />
                     </el-icon>
                     <span>备忘录管理</span>
                   </template>
@@ -79,7 +79,7 @@
                 </el-menu-item>
                 <el-menu-item index="4">
                   <el-icon>
-                    <MostlyCloudy/>
+                    <UserFilled />
                   </el-icon>
                   <span>联系人管理</span>
                 </el-menu-item>
