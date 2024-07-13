@@ -418,7 +418,6 @@ export default {
       this.load_showData();
     },
 
-
     load_showData() {
       let res = [];
       for (let i=(this.currentPage - 1) * this.pageSize; i<this.tableData.length && i<this.currentPage * this.pageSize; i++) {

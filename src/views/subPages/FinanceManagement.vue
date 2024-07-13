@@ -88,7 +88,7 @@
         <el-table-column
             prop="remark"
             label="备注信息"
-            width="220"
+            width="300"
         show-overflow-tooltip
         >
         </el-table-column>

@@ -72,7 +72,7 @@
         <el-table-column
             prop="bmi"
             label="身体质量指数"
-            width="140"
+            width="180"
             style="font-weight: bold;"
             show-overflow-tooltip
         >
@@ -86,7 +86,7 @@
         <el-table-column
             prop="createTime"
             label="创建时间"
-            width="200">
+            width="240">
         </el-table-column>
         <!--        <el-table-column label="会议详情" width="120" fixed="right">-->
         <!--          <template #default="scope">-->
