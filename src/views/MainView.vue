@@ -163,7 +163,10 @@ export default {
         this.pathList.push("/mainView")
       }
       else if (index === "1") {
-
+        router.push("/mainView/dailyManagement")
+        this.pathList.splice(0,this.pathList.length);
+        this.pathList.push("/mainView")
+        this.pathList.push("/mainView/dailyManagement")
       }
       else if (index === "2") {
         router.push("/mainView/healthManagement")
