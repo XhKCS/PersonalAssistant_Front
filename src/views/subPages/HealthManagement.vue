@@ -49,7 +49,6 @@
           style="width: 100%; "
           @selection-change="handleSelectionChange"
           @select="handleSelect"
-          id="conference_table"
       >
         <el-table-column type="selection"  label="选择">
         </el-table-column>

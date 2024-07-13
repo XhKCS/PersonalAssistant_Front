@@ -3,6 +3,7 @@ import MainView from "@/views/MainView.vue";
 import HealthManagement from "@/views/subPages/HealthManagement.vue";
 import FinanceManagement from "@/views/subPages/FinanceManagement.vue";
 import ContactManagement from "@/views/subPages/ContactManagement.vue";
+import DailyManagement from "@/views/subPages/DailyManagement.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -22,10 +23,15 @@ const router = createRouter({
         {
           path: "financeManagement",
           component: FinanceManagement,
-        },{
-        path: "contactManagement",
+        },
+        {
+          path: "contactManagement",
           component: ContactManagement,
-        }
+        },
+        {
+          path: "dailyManagement",
+          component: DailyManagement,
+        },
       ]
     },
 
