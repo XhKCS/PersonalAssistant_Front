@@ -56,7 +56,6 @@
           style="width: 100%; "
           @selection-change="handleSelectionChange"
           @select="handleSelect"
-          id="conference_table"
       >
         <el-table-column type="selection"  label="选择">
         </el-table-column>
@@ -93,11 +92,6 @@
         show-overflow-tooltip
         >
         </el-table-column>
-<!--        <el-table-column label="会议详情" width="120" fixed="right">-->
-<!--          <template #default="scope">-->
-<!--            <el-button  plain icon="View" @click="start_viewConferenceDetails(scope.row)">详情</el-button>-->
-<!--          </template>-->
-<!--        </el-table-column>-->
         <el-table-column label="操作" width="190" fixed="right">
           <template #default="scope">
             <label @click="start_updateFinance(scope.row)"

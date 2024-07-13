@@ -22,7 +22,7 @@ onMounted(()=>{
 
 <template>
   <el-container>
-    <el-header height="40px" >
+    <el-header height="40px" style="margin-bottom: 0; margin-top: 20px;" >
       <div style="display:flex">
         <div style="display:inline-flex;white-space:nowrap;">
           <el-text style="width: max-content"> 联系人名称</el-text>
@@ -43,12 +43,13 @@ onMounted(()=>{
       </div>
     </el-header>
     <el-main>
-      <p style="margin-top: 20px; margin-bottom: 10px;">
+      <p style="margin-top: 10px; margin-bottom: 10px;">
         <el-button type="primary" plain icon="Plus"  class="MomoButton"  >新增</el-button>
         <el-button type="success" plain icon="Edit"  class="MomoButton"  >修改</el-button>
         <el-button type="danger" plain icon="Delete"  class="MomoButton"  >删除</el-button>
         <el-button type="warning" plain icon="Download" class="MomoButton"  >导出</el-button>
       </p>
+
       <el-table :data="allContact" >
         <el-table-column type="selection" width="50"></el-table-column>
         <el-table-column prop="contactId" label="联系人Id" width="180" />
